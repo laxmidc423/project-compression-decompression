@@ -165,6 +165,8 @@ int main(int argc, char* argv[]) {
         fclose(fp_table);
         return 0;
     }
+
+    
     decode(fp_huffman, fp_out);  // Decode the file and save
 
     fclose(fp_huffman);  // Close the file pointer for .huffman file
