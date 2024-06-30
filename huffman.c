@@ -124,6 +124,9 @@ void encode(FILE* fp_in, FILE* fp_out, unsigned int *freq ){
 	putchar('\n');
 }
 
+
+
+
 void print_code(unsigned int *freq){
 	int i;
 	printf("\n---------CODE TABLE---------\n----------------------------\nCHAR  FREQ  CODE\n----------------------------\n");
@@ -149,6 +152,8 @@ void print_code(unsigned int *freq){
 		}
 	}
 	printf("----------------------------\n");
+
+
 
 }
 
